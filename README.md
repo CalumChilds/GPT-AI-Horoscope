@@ -1,39 +1,25 @@
-# UoS Computing Society Horoscope - Change Instructions
+# UoS Computing Society Horoscope
 
 It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
-
-![Text box that says name my pet with an icon of a dog](https://user-images.githubusercontent.com/10623307/213887080-b2bc4645-7fdb-4dbd-ae42-efce00d0dc29.png)
-
 
 ## Setup
 
 1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/) (Node.js version >= 14.6.0 required)
 
-2. Clone this repository
-
-3. Navigate into the project directory
+2. Click the Fork button on the top-right hand corner of this page. This will create a version of this repository on your GitHub account.
+3. Install GitHub Desktop or Git if you haven't already [Instructions on how to install GitHub Desktop can be found here.]().
+4. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-node
+   $ cd GPT-AI-Horoscope
    ```
 
-4. Install the requirements
+5. Install the requirements
 
    ```bash
    $ npm install
    ```
-
-5. Make a copy of the example environment variables file
-
-   On Linux systems: 
-   ```bash
-   $ cp .env.example .env
-   ```
-   On Windows:
-   ```powershell
-   $ copy .env.example .env
-   ```
-6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
+6. Add your [API key](https://platform.openai.com/account/api-keys) in index.js where it says `"{YOUR_OPEN_AI_API_KEY}"` in `index.js`.
 
 7. Run the app
 
@@ -41,4 +27,4 @@ It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactj
    $ npm run dev
    ```
 
-You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this example app, check out the [tutorial](https://platform.openai.com/docs/quickstart).
+You should now be able to access the app at [http://localhost:3000](http://localhost:3000)!
