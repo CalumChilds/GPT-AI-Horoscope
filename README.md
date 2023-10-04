@@ -7,8 +7,8 @@ It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactj
 1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/) (Node.js version >= 14.6.0 required)
 
 2. Click the Fork button on the top-right hand corner of this page. This will create a version of this repository on your GitHub account.
-3. Install GitHub Desktop or Git if you haven't already [Instructions on how to install GitHub Desktop can be found here.]().
-4. Navigate into the project directory
+3. Install GitHub Desktop or Git if you haven't already [Instructions on how to install GitHub Desktop can be found here.](https://github.com/CalumChilds/GPT-AI-Horoscope/wiki/Installing-GitHub-Desktop-&-Git).
+4. Navigate into the project directory using the Node.js command prompt program.
 
    ```bash
    $ cd GPT-AI-Horoscope
